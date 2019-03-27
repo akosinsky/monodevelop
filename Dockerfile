@@ -10,4 +10,10 @@ rm /mono-4.6.2.7.tar.bz2 ; \
 cd /mono-4.6.2 ; \
 make clean ; \
 cd xsp-4.6/ ; \
-make clean
+make clean ; \
+mkdir /build ; \
+cd /build ; \
+wget https://github.com/mono/mono/archive/mono-5.18.1.0.tar.gz ; \
+tar xfz mono-5.18.1.0.tar.gz ; \
+mv mono-mono-5.18.1.0 mono-5.18.1.0 ; \
+rm mono-5.18.1.0.tar.gz
