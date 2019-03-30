@@ -20,4 +20,4 @@ rm mono-4.6.2.7.tar.bz2 ; \
 wget https://github.com/mono/mono/archive/mono-5.18.0.240.tar.gz ; \
 tar xfz mono-5.18.0.240.tar.gz ; \
 mv mono-mono-5.18.0.240 mono-5.18.0.240 ; \
-rm mono-5.18.0.245.tar.gz
+rm xfz mono-5.18.0.240.tar.gz
